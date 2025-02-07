@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 216, 255);
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: red;
+        color: white;
+    }
+}
+@media screen and (max-width: 400px){
+    body{
+        background-color: chartreuse;
+        color: black;
+    }
+}
